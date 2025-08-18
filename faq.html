@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently Asked Questions about dental care, appointments, and services at Dr. Nick Svarnias Dental Practice in Chicago. Get answers to common dental questions.">
+    <meta name="keywords" content="dental FAQ Chicago, dental questions, dental appointment questions, dental care questions, Dr. Nick Svarnias FAQ, dental services questions Chicago">
+    <meta name="author" content="Dr. Nicholas J. Svarnias, DDS, PC">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="FAQ - Dr. Nick Svarnias Dental Practice">
+    <meta property="og:description" content="Frequently Asked Questions about dental care, appointments, and services at Dr. Nick Svarnias Dental Practice in Chicago.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.drnicksvarnias.com/faq.html">
+    <meta property="og:image" content="https://www.drnicksvarnias.com/images/LOGO%201.avif">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="FAQ - Dr. Nick Svarnias Dental Practice">
+    <meta name="twitter:description" content="Frequently Asked Questions about dental care, appointments, and services at Dr. Nick Svarnias Dental Practice in Chicago.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/avif" href="./images/LOGO 1.avif">
+    <link rel="icon" type="image/x-icon" href="./images/LOGO 1.avif">
+    <link rel="apple-touch-icon" href="./images/LOGO 1.avif">
+    <link rel="shortcut icon" href="./images/LOGO 1.avif">
+    
+    <title>FAQ - Dr. Nick Svarnias Dental Practice</title>
+    
+    <!-- Structured Data for FAQ Page -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How often should I visit the dentist?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most patients benefit from a cleaning and exam every six months. If you have gum disease or other concerns, we may recommend more frequent visits."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What should I do if I have a dental emergency?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Call us immediately. We reserve same-day appointments for emergencies like toothaches, swelling, broken teeth, or injuries."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does teeth whitening hurt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Professional whitening is safe and effective. Some patients may notice temporary sensitivity, which usually resolves in 24–48 hours."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="./images/LOGO 1.avif" alt="Dr. Nick Svarnias Logo" class="logo"></a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                    <a href="index.html#services" class="nav-link">Services</a>
+                    <a href="index.html#team" class="nav-link">Our Team</a>
+                    <a href="faq.html" class="nav-link active">FAQ</a>
+                    <a href="appointment.html" class="nav-link">Book Appointment</a>
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="faq-page" style="margin-top: 90px;">
+        <section class="faq">
+            <div class="container">
+                <h1 class="section-title">Frequently Asked Questions</h1>
+                <p class="section-subtitle">Answers to common questions to help you feel confident about your care.</p>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>How often should I visit the dentist?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Most patients benefit from a cleaning and exam every six months. If you have gum disease or other concerns, we may recommend more frequent visits.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What should I do if I have a dental emergency?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Call us immediately. We reserve same-day appointments for emergencies like toothaches, swelling, broken teeth, or injuries.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Does teeth whitening hurt?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Professional whitening is safe and effective. Some patients may notice temporary sensitivity, which usually resolves in 24–48 hours.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What's the difference between a crown, bridge, and implant?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li><strong>Crown:</strong> A "cap" placed over a damaged tooth.</li>
+                                <li><strong>Bridge:</strong> Replaces one or more missing teeth by attaching to nearby teeth.</li>
+                                <li><strong>Implant:</strong> A titanium post surgically placed into the jaw with a crown on top — the closest replacement to a natural tooth.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>At what age should my child see the dentist?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>By age 1, or within six months of their first tooth. Early visits help prevent issues and build comfort with dental care.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Will a root canal hurt?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No. Root canals relieve pain caused by infection. With modern anesthesia and techniques, treatment feels much like a standard filling.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What if I'm nervous about going to the dentist?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You're not alone. We take extra time to explain your care, answer questions, and provide comfort options to make your visit stress-free.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Do you see children and families?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We welcome patients of all ages, from toddlers to seniors. We love helping children build healthy habits early.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Do you take walk-ins?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>While appointments are encouraged, we do our best to accommodate same-day walk-ins, especially for emergencies.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>How much does treatment cost?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Every patient's needs are different. During your visit, we'll provide a personalized treatment plan with upfront cost estimates, insurance benefits, and financing options.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What if I haven't been to the dentist in years?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>That's okay! We'll start with a gentle exam and cleaning, then create a treatment plan to restore your oral health. No judgment — just support.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What should I expect at my first visit?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We'll review your health history, take X-rays if needed, perform a thorough exam, and determine the type of cleaning you may need. Together, we'll discuss your goals and create a personalized care plan.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Is dental care safe during pregnancy?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. Preventive care and most dental treatments are safe during pregnancy, though we may postpone certain elective procedures until after delivery.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>How can I prevent cavities at home?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Brush twice daily with fluoride toothpaste, floss daily, limit sugary snacks/drinks, and see us regularly for checkups and professional cleanings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nicholas J. Svarnias, DDS, PC</h3>
+                    <p>Creating Beautiful Smiles</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/drnicksvarnias" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Cancellation Policy</h4>
+                    <p>We ask that all cancellations or re-scheduling of appointments take place a full 24 hours in advance to avoid a cancellation fee and to better assist you in finding a new appointment that suits your schedule.</p>
+                    <p><strong>Note:</strong> Unfortunately at this time, we are not able to accept requests for cancellations or re-scheduling of appointments via email.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2008 by NICHOLAS J. SVARNIAS D.D.S.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // FAQ Accordion functionality
+        function toggleFAQ(element) {
+            const faqItem = element.parentElement;
+            const answer = faqItem.querySelector('.faq-answer');
+            const icon = element.querySelector('.faq-icon');
+            
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-item').forEach(item => {
+                if (item !== faqItem) {
+                    item.classList.remove('active');
+                    const otherAnswer = item.querySelector('.faq-answer');
+                    const otherIcon = item.querySelector('.faq-icon');
+                    otherAnswer.style.maxHeight = '0px';
+                    otherIcon.style.transform = 'rotate(0deg)';
+                }
+            });
+            
+            // Toggle current FAQ item
+            if (faqItem.classList.contains('active')) {
+                faqItem.classList.remove('active');
+                answer.style.maxHeight = '0px';
+                icon.style.transform = 'rotate(0deg)';
+            } else {
+                faqItem.classList.add('active');
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
+        
+
+    </script>
+</body>
+</html>
+
+

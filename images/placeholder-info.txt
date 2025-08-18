@@ -1,0 +1,46 @@
+IMAGES NEEDED FOR DR. NICK SVARNIAS WEBSITE
+============================================
+
+This directory should contain the following images:
+
+1. logo.png (50x50px recommended)
+   - Practice logo for the header
+   - Should be transparent background if possible
+
+2. hero-dental.jpg (800x600px minimum)
+   - Hero section background image
+   - Should show a clean, modern dental office or dental care
+
+3. dr-svarnias.jpg (300x250px minimum)
+   - Professional photo of Dr. Nicholas J. Svarnias
+   - Should be in dental attire (white coat, etc.)
+
+4. gabriela-dace.jpg (300x250px minimum)
+   - Professional photo of Gabriela Dace, RDH
+   - Should be in dental hygienist attire
+
+5. martha-ramirez.jpg (300x250px minimum)
+   - Professional photo of Martha Ramirez, RDH
+   - Should be in dental hygienist attire
+
+IMAGE REQUIREMENTS:
+- Format: JPG, PNG, or WebP
+- File size: Maximum 500KB per image
+- Quality: High quality, professional appearance
+- Background: Clean, professional backgrounds
+- Lighting: Good lighting, clear visibility
+
+RECOMMENDATIONS:
+- Use professional headshots or 3/4 body shots
+- Ensure good contrast and visibility
+- Avoid busy backgrounds
+- Maintain consistent style across team photos
+- Test images on both desktop and mobile devices
+
+PLACEHOLDER IMAGES:
+Until you have the actual photos, you can:
+1. Use stock dental office photos (ensure licensing)
+2. Create simple placeholder images with text
+3. Use professional dental stock photos
+
+The website will work without these images, but they will display as broken image icons.

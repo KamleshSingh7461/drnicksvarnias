@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .test-image { max-width: 200px; height: 150px; object-fit: cover; border: 1px solid #ddd; }
+        .service-card { background: #f9f9f9; padding: 20px; margin: 10px 0; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Test Page for Image Loading</h1>
+    
+    <div class="test-section">
+        <h2>Test 1: Local Logo</h2>
+        <img src="images/LOGO 1.avif" alt="Logo Test" class="test-image">
+    </div>
+    
+    <div class="test-section">
+        <h2>Test 2: Local Team Member Image</h2>
+        <img src="images/Dr.Nicholas J. Svarnias.avif" alt="Dr. Svarnias Test" class="test-image">
+    </div>
+    
+    <div class="test-section">
+        <h2>Test 3: External Unsplash Image</h2>
+        <img src="https://images.unsplash.com/photo-1559591935-c6d92aebd54b?w=200&h=150&fit=crop&crop=center&auto=format&q=80" alt="External Test" class="test-image">
+    </div>
+    
+    <div class="test-section">
+        <h2>Test 4: Font Awesome Icons</h2>
+        <p>Testing if Font Awesome loads: <i class="fas fa-tooth"></i> <i class="fas fa-smile"></i></p>
+    </div>
+    
+    <div class="test-section">
+        <h2>Test 5: Simple Services Content</h2>
+        <div class="service-card">
+            <h3>Preventive Care</h3>
+            <p>Routine cleanings and checkups are the key to long-lasting oral health.</p>
+        </div>
+    </div>
+    
+    <script>
+        console.log('Test page loaded successfully');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM fully loaded');
+        });
+    </script>
+</body>
+</html>
